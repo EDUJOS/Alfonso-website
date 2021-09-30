@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    /*background-color: #212121;*/
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(45deg, #03254E, #6e2594);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    /*background-color: black;*/
+    color: #fff;
+    text-transform: uppercase;
+    /*letter-spacing: 5px;*/
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 87%}
+    50%{background-position:100% 14%}
+    100%{background-position:0% 87%}
+}
+
+.barra {
+    background-color: #0B132B;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    display: table;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+/* .barra li {
+    background-color: transparent;
+    padding: 20px 20px 20px 20px;
+    display: inline-block;
+    transition: .9s;
+} */
+
+.barra li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#dis {
+    margin-right: 0;
+    margin-left: 5px;
+    color: #5f6aff;
+}
+
+.vote {
+    padding: 23px 23px 10px 10px;
+    margin-left: 84%;
+    display: inline-block;
+}
+
+.support {
+    padding: 23px 23px 10px 10px;
+    /* margin-left: 85%; */
+    display: inline-block;
+}
+
+.cont1 {
+    padding: 100px;
+}
+
+.alfonsotxt {
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 530px;
+    height: 190px;
+    /*background-color: #000;asd*/
+    /* opacity: 70%;
+    transition: .9s opacity; */
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* .alfonsotxt:hover {
+    background-color: transparent;
+    opacity: 100%;
+    transition: 2s;
+} */
+
+.altxt {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.altxt2 {
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+
+.bt {
+    background: transparent;
+    margin-top: -280px;
+    margin-left: 870px;
+    width: 340px;
+    height: 420px;
+}
+.alfonsoimg {
+    display: none; /*flex*/
+    align-items: center;
+    width: 385px;
+    height: 252px;
+    /* margin-left: 700px; */
+    padding: 0;
+    clip-path: circle(90px at 50%);
+    transition: .9s;
+}
+
+.alfonsoimg:hover {
+    clip-path: circle(120px);
+}
+
+.cont2 {
+    background-color: #320E3B;
+    padding: 0;
+    margin-top: 380px;
+    width: 100%;
+    height: 720px;
+}
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+.inv {
+    background: transparent;
+    width: 196px;
+    height: 105px;
+    margin-top: -190px;
+    margin-left: 90px;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.button {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 5px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 43.5%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.invitebt {
+    background-color: transparent;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid #1AC8ED; /*#ff0251 #14CC60*/
+    color: #1AC8ED;
+    transition: .3s;
+    
+}
+.invitebt:hover {
+    animation: pulse 1.3s infinite;
+    transition: .3s;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes opacidad {
+    0% {
+        opacity: 0%;
+    }
+
+    40% {
+        opacity: 40%;
+    }
+    80% {
+        opacity: 80%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

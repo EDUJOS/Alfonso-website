@@ -244,14 +244,14 @@ body {
     .cont1 {
         display: flex;
         background: transparent;
-        padding: 60px;
+        padding: 40px;
         width: 240px;
     }
     
     .alfonsotxt {
         padding: 5px;
-        width: 230px;
-        height: 290px;
+        width: 200px;
+        height: 230px;
         background: transparent;
         border-radius: 5px;
         overflow: hidden;
@@ -259,37 +259,38 @@ body {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     
     .altxt {
         letter-spacing: 1px;
         line-height: 20px;
-        font-size: 15px;
+        font-size: 10px;
     }
     .altxt2 {
         letter-spacing: 1px;
         line-height: 20px;
-        font-size: 15px;
+        font-size: 10px;
     
     }
     .altxt3 {
         letter-spacing: 1px;
         line-height: 20px;
-        font-size: 15px;
+        font-size: 10px;
     
     }
     .altxt4 {
         letter-spacing: 1px;
         line-height: 20px;
-        font-size: 15px;
+        font-size: 10px;
     
     }
     
     .bt {
+        display: flex;
         background: transparent;
-        margin-left: 350px;
-        margin-top: -360px;
+        margin-left: 260px;
+        margin-top: -290px;
         width: 140px;
         height: 130px;
         overflow: hidden;
@@ -310,7 +311,7 @@ body {
         width: 163px;
         height: 75px;
         margin-top: 230px;/*-150px -70px*/
-        margin-left: 56px;
+        margin-left: 35px;
         margin-right: 0;
         overflow: hidden;
     }

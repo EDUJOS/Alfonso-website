@@ -251,7 +251,7 @@ body {
     .alfonsotxt {
         padding: 5px;
         width: 200px;
-        height: 230px;
+        height: 290px;
         background: transparent;
         border-radius: 5px;
         overflow: hidden;
@@ -290,7 +290,7 @@ body {
         display: flex;
         background: transparent;
         margin-left: 260px;
-        margin-top: -290px;
+        margin-top: -330px;
         width: 140px;
         height: 130px;
         overflow: hidden;
